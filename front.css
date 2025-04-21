@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(2, 5, 50);
+    margin: 0;
+    padding: 25px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    box-sizing: border-box;
+  }
+
+  .center-img {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+  }
+  
+    
+  
+
+  .title {
+    color: #ffffff;
+    font-family: "playfair Display", serif;
+    text-align: center;
+  }
+  
+  .emphasis {
+    color: #ffffff;
+    font-size: 10px;
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  .message1 {
+    color: #ffffff;
+    font-family: "Poetsen One", sans-serif;
+    margin: 0 20px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .message2 {
+    color: #ffffff;
+    font-family: "Poetsen One", sans-serif;
+    margin: 0 20px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .onbutton {
+    color: #ffffff;
+    font-family: "Poetsen One", sans-serif;
+  }
+  
+  .onbutton::after {
+    content: "|";
+    animation: blink 1s infinite;
+    margin-left: 5px;
+  }
+  
+  @keyframes blink {
+    0%   { opacity: 1; }
+    50%  { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .button1 {
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: rgb(211, 211)
+
+  } 
+  
+  .wrapper {
+    background: rgba(120, 129, 207, 0.459);
+    border-radius: 25px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    padding: 40px 30px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    backdrop-filter: blur(8px);
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+  }
+  
+
+  .buttonback {
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: rgb(211, 211)
+  }
+  
+  .buttonnext {
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: rgb(211, 211)
+  }
+
+  .buttonnext2 {
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: rgb(211, 211)
+  }
+
+  .buttonnext3 {
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: rgb(211, 211)
+  }
+  
+  
+  
